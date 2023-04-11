@@ -1,15 +1,6 @@
 terraform {
-
   
-  cloud {
-    organization = "nasirrayeen"
-
-    workspaces {
-      name = "practice-workspace"
-    }
-  }
-
-  required_providers {
+    required_providers {
     aws = {
       source  = "hashicorp/aws"
       version = "~> 4.0"
